@@ -1,0 +1,184 @@
+﻿@page
+@model Avondale_College.Views.Home.AboutModel
+@{
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+
+        .tab {
+            float: left;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            width: 30%;
+            height: 300px;
+        }
+
+
+            .tab button {
+                display: block;
+                background-color: inherit;
+                color: black;
+                padding: 22px 16px;
+                width: 100%;
+                border: none;
+                outline: none;
+                text-align: left;
+                cursor: pointer;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+
+
+                .tab button:hover {
+                    background-color: #ddd;
+                }
+
+
+                .tab button.active {
+                    background-color: #ffd800;
+                }
+
+
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid #ccc;
+            width: 70%;
+            border-left: none;
+            height: 1700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'History')" id="defaultOpen">History</button>
+        <button class="tablinks" onclick="openCity(event, 'Message from the Principal')">Message from the Principal</button>
+        <button class="tablinks" onclick="openCity(event, 'Motto and Mission Statement')">Motto and Mission Statement</button>
+    </div>
+    <div id="History" class="tabcontent">
+        <h3>The History of Avondale College</h3>
+        <img src="~/img/Old Avondale.jpg" alt="Avondale College School History">
+        <p>
+            The site and buildings of Avondale College began their life as an American Naval Hospital in 1943: U.S. Naval Mobile Hospital Number 6. At that time the USA was preparing for an extended Second World War battle in the South Pacific and Auckland was chosen as one of a few New Zealand cities for hospitals to tend the wounded army and naval personnel. Fletcher Construction was the builder of the hospital. The Department of Education had some of the site planned for a new secondary school to cope with the overcrowding of Auckland secondary schools. The hospital was given first priority, but a small portion of the buildings were built in permanent materials so that the wards, the gymnasium, the hall and some other buildings could easily be converted into a school at the end of the war. The extent of the hospital was huge, taking up all of the present school site as well as the nearby Rosebank Park and fields.
+
+
+            The war in the Pacific did not reach the scale it was feared it could become and, in fact, the hospital was not used for wounded personnel. In February 1945 the Education Department recommended that Avondale Technical High School (as it was first named) and the neighbouring Intermediate School should be supervised by one school committee and it was the 6th February when five hundred and fifty students and twenty-one teachers gathered to begin turning the former hospital into a school. This was no easy task as New Zealand was still virtually operating under war conditions so that supplies and orders for the school were a good eighteen months from order placements to delivery.
+
+
+            However there were compensations. Student accounts from the school magazine Taikaka reveal how proud students were of their brand new school buildings, their very well qualified teachers and the sense that Avondale College (renamed in 1948) was leading new Zealand in a number of ways: it very soon became one of the largest schools in New Zealand; it embraced with vigour the new national curriculum; it took students outside the classroom on field trips; it developed a huge orchestra; it produced wonderful dramas and musicals; it had an expansive technical block.
+
+
+            Since 1945 the six principals of Avondale College (L.E Titheridge, A.R. Stephenson, W.R. Familton, A.H. Burton, P. R. Raffills, B. Lewis) have all extended and rebuilt the buildings (especially after the devastating fire in 1990), redeveloped the site and playing grounds, created an outdoor education camp in the National Park, established exchange schools in Japan and Noumea, developed business relationships with the local community, installed the latest technologies for students and staff. Along with this has been a steady increase in the scholastic and sporting achievements of the school to the present day where both the school and its achievements rank it among the best in New Zealand.
+
+
+            A fuller account of the school’s history up to the 50th jubilee can be found in the jubilee book called: Avondale College 1945-1995, the First 50 Years, available from the National Library service
+        </p>
+    </div>
+    <div id="Message from the Principal" class="tabcontent">
+        <h3>From the Principal</h3>
+        <img src="~/img/Principal.jpg" alt="Principal of Avondale Colege">
+        <p>Principal Lyndy Watkinson</p>
+        <p>
+            Avondale College is a high performing, diverse, co-educational secondary school located ten minutes from central Auckland. Our school motto, Kohia ngā Taikākā, establishes our commitment to provide opportunities for all students to strive for academic, sporting and creative excellence, within an aspirational and caring environment.
+
+
+
+            Our HEART values: Honesty, Endeavour, Atawhai, Respect and Tenacity, provide the foundation for our community. These shared values are the basis for student-focused relationships which allow our large school to have a strong family feel.
+
+
+
+            Students are at the HEART of all that we do, and our committed, expert teachers work to support students to reach their potential both within and beyond the classroom. Through our teaching and learning programmes, students are encouraged to communicate effectively, work independently, question, inquire and develop creative solutions.
+
+
+
+            Avondale College students consistently achieve excellent academic results, across all areas of the school. Our curriculum has strong learning pathways with flexible, innovative courses, providing relevant opportunities for all. As well as the NCEA curriculum we offer Cambridge International qualifications, providing an alternative pathway to top universities and career opportunities, both in New Zealand and overseas.
+
+
+
+            Our Innovation Programme offers a third qualification pathway, with Avondale College awarding more industry based IT certifications than any other provider in New Zealand, including universities. Our students have gained 19 top-10 places in the Microsoft World Championships over the past 10 years, including 1st in the World in PowerPoint.
+
+
+
+            Beyond the classroom we provide an extensive co-curricular programme, with a breadth of opportunity for all students to connect to the wider life of our school. In recent years many of our students have represented New Zealand in sport, our Performing Arts groups have won multiple awards and our cultural groups are nationally and internationally recognised. Our environment groups, debating teams and advocacy groups, such as World Vision, provide students with opportunities to question topics of local, national and international concern, and to make positive contributions towards inclusive solutions.
+
+
+
+            Our well-established academies provide a connection between our academic and co-curricular programmes. Students from Year 9 can participate in the Sports, Performing Arts and Innovation Academies, and the Scholars Academy offers extension opportunities to senior students.
+
+
+
+            Avondale College has state-of-the-art buildings and facilities. As a result of a major re-build, our learning spaces are purpose built, modern and connected to our world class IT network. Our students benefit from well-appointed classrooms, as well as specialist technology, performing arts, science and sports buildings, all within expansive, landscaped surroundings.
+
+
+
+            At Avondale College, our expectations are high, opportunities abound, and role models are plentiful. Our students achieve the exceptional and graduate from our school ready to make a positive contribution to their wider community.
+
+
+
+            We look forward to welcoming you to Avondale College.
+
+
+
+            Lyndy Watkinson
+
+            Principal
+        </p>
+        <p>
+            Kind regards
+
+        </p>
+        <p>
+            Lyndy Watkinson
+            Principal
+        </p>
+
+    </div>
+
+    <div id="Motto and Mission Statement" class="tabcontent">
+        <h3>Motto: Kohia Nga Taikaka</h3>
+        <img src="~/img/Kohia building LR.jpg" alt="Avondale College Motto">
+        <p>The school has a motto of which it is justly proud:  Kohia Nga Taikaka.  Literally it means "to collect the heartwood", to strive after the best things in life, and to work, play and act in a manner that will  bring credit to each individual and to the College</p>
+
+
+        <h3>Mission Statement</h3>
+        <p>In a caring and positive environment Avondale College will provide an education which enables all students to achieve personal standards of excellence in academic work as well as in the supporting areas of physical, cultural and social development.</p>
+
+        <h3>Our HEART Values</h3>
+        <img src="~/img/Heart Values.jpg" alt="Avondale College Heart Values">
+        <p>Honesty: We will be trustworthy, fair and do the right thing.</p>
+        <p>Endeavour: We will give maximum effort to achieve our goals.</p>
+        <p>Atawhai: We will be kind, considerate and care for one another.</p>
+        <p>Respect: We will have respect for self, others and our environment.</p>
+        <p>Tenacity: We will demonstrate perseverance and show determination.</p>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+</html>
