@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\MyAttendance\**" />
+    <Content Remove="Views\MyAttendance\**" />
+    <EmbeddedResource Remove="Views\MyAttendance\**" />
+    <None Remove="Views\MyAttendance\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
@@ -16,10 +23,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\MyAttendance\" />
   </ItemGroup>
 
 </Project>
